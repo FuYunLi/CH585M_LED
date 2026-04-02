@@ -1,0 +1,19 @@
+CompileFlags:
+  CompilationDatabase: .
+  Add:
+    - "-IStdPeriphDriver/inc"
+    - "-IRVMSIS"
+    - "-Isrc"
+    - "-DDEBUG=0"
+  Remove:
+    - "-march=*"
+    - "-mabi=*"
+    - "-msmall-data-limit=*"
+    - "-mhighcode"
+
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
+
+Index:
+  Background: Build

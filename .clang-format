@@ -1,0 +1,23 @@
+BasedOnStyle: LLVM
+BreakBeforeBraces: Allman
+IndentWidth: 4
+ColumnLimit: 120
+
+# 宏定义对齐
+AlignConsecutiveMacros: true
+
+# 允许将短循环放在同一行（例如 while (1);）
+AllowShortLoopsOnASingleLine: true
+
+# 尾部注释对齐
+AlignTrailingComments: true
+
+# 变量赋值对齐
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AlignFunctionDeclarations: false
+
+# 关键：保持指定初始化器 (Designated Initializers) 每行一个
+Cpp11BracedListStyle: false
+AlignArrayOfStructures: Left

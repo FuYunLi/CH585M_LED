@@ -1,0 +1,16 @@
+# 缂栬瘧杈撳嚭
+obj/
+Debug/
+Release/
+
+# IDE閰嶇疆鏂囦欢
+.mrs/
+.settings/
+.cache/
+.vscode/
+
+compile_commands.json
+
+# 绯荤粺鏂囦欢
+.DS_Store
+Thumbs.db
